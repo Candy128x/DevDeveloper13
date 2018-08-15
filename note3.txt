@@ -1,0 +1,10 @@
+proj: DevDeveloper13
+#180815
+    ~static
+
+Home-lappy-pwd:
+E:\4-Data\3-DevDeveloper\DDOfficialPage2\v3c
+
+GitHub:
+remtdd13: https://github.com/Candy128x/DevDeveloper13.git
+master

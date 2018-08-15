@@ -1,0 +1,282 @@
+.regFont2
+{
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+font-size: 18px;
+}
+
+.pad5
+{
+padding:10px;
+}
+
+body, a:hover{
+cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1028.ani), 
+url(http://cur.cursors-4u.net/cursors/cur-11/cur1027.png), progress !important;
+}
+
+#sticky {
+    width: 100%;	
+}
+
+#sticky.stick {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+}
+
+
+body{
+	position: relative;
+}
+
+.affix {
+	top:0;
+	width: 100%;
+	z-index: 9999 !important;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+	position: relative;
+	top: 50px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+a:link
+{
+color:white;
+text-decoration: none;
+}
+a:visited
+{
+color:white;
+text-decoration: none;
+}
+a:hover
+{
+color:white;
+text-decoration: none;
+}
+a:active
+{
+color:white;
+text-decoration: none;
+}
+
+
+.ad2:hover{
+transform: scale(1.45);
+border: 3px solid red;
+}
+.ad2 img{
+transition: au 0.3s ease 0s;
+width: 100%;
+border: 2px solid green;
+}
+.ad2{
+overflow: hidden;
+border: 2px solid blue;
+transition: all .5s ease-in-out;
+}
+
+.pro2:hover{
+transform: scale(1.15);
+-webkit-filter: contrast(125%);filter: contrast(125%);
+-webkit-filter: drop-shadow(1px 1px 3px black);filter: drop-shadow(1px 1px 3px black);
+}
+.pro2 img{
+transition: au 0.3s ease 0s;
+width: 100%;
+}
+.pro2{
+overflow: hidden;
+transition: all .5s ease-in-out;
+}
+
+.chfmi a:link{
+color:white;
+font-size: 36px;
+text-decoration: none;
+}
+.chfmi a:visited{
+color:white;
+font-size: 36px;
+text-decoration: none;
+}
+.chfmi a:hover{
+color:white;
+font-size: 38px;
+text-decoration: none;
+}
+.chfmi a:active{
+color:white;
+font-size: 36px;
+text-decoration: none;
+}
+
+.swwa2 a:link{
+color: #FFD700;
+text-shadow: 1px 1px 3px gray, 1px -1px 3px gray, -1px 1px 3px gray, -1px -1px 3px gray;
+text-decoration: none;
+}
+.swwa2 a:visited{
+color: #FFEB3B;
+text-shadow: 1px 1px 3px gray, 1px -1px 3px gray, -1px 1px 3px gray, -1px -1px 3px gray;
+text-decoration: none;
+}
+.swwa2 a:hover{
+color: #00FF00;
+font-size:34px;
+text-shadow: 1px 1px 3px black, 1px -1px 3px gray, -1px 1px 3px gray, -1px -1px 3px gray, 2px 2px 5px skyblue;
+text-decoration: none;
+}
+.swwa2 a:actie{
+color: #ADFF2F;
+text-decoration: none;
+}
+
+.shaCon2 a:hover
+{
+color:white;
+font-size: 16px;
+}
+
+.apo2 a:link{
+color: #1B2631;
+}
+.apo2 a:visited{
+color: #1B2631;
+}
+.apo2 a:hover{
+color: #1B2631;
+text-decoration: underline;
+}
+.apo2 a:active{
+color: #1B2631;
+}
+
+/* continuous Change bg */
+.divCon {
+    background: red;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    0%   {background: red;}
+    20%  {background: blue;}
+    40%  {background: yellow;}
+    60%  {background: green;}
+    80%  {background: AQUA;}
+	100% {background: red;}
+}
+/* Standard syntax */
+@keyframes mymove {
+    0%   {background: red;}
+    20%  {background: blue;}
+    40%  {background: yellow;}
+    60%  {background: green;}
+    80%  {background: AQUA;}
+	100% {background: red;}
+}
+
+/* Feedback img - Middle */
+.overlay:hover {
+position: absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background-color: rgba(0,0,0,0.30);
+color:white;
+}
+.overlay{
+position: absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background-color: rgba(0,0,0,0.01);
+color:white;
+}
+
+.feedb3a a:link{
+color: white;
+text-decoration: none;	
+text-shadow: 1px 1px 3px gray, 1px -1px 3px gray, -1px 1px 3px gray, -1px -1px 3px gray;
+}
+.feedb3a a:visited{
+color: white;
+text-decoration: none;	
+text-shadow: 1px 1px 3px gray, 1px -1px 3px gray, -1px 1px 3px gray, -1px -1px 3px gray;
+}
+.feedb3a a:hover{
+color: #80DEEA;
+text-decoration: none;	
+text-shadow: 1px 1px 3px black, 1px -1px 3px gray, -1px 1px 3px gray, -1px -1px 3px gray, 2px 2px 5px black;
+}
+.feedb3a a:active{
+color: white;
+text-decoration: none;	
+text-shadow: 1px 1px 3px gray, 1px -1px 3px gray, -1px 1px 3px gray, -1px -1px 3px gray;
+}
+
+.hr2{
+border: 2px dashed purple; 
+text-align:center; 
+width:40%; 
+margin-left: 30%;
+}
+
+background: url(img/android_a15a985f9785.png) no-repeat;
+background-size: 100% 100%;	
+width: 150px; 
+height: 150px;
+overflow: hidden;
+position: relative;
+z-index: 0;
+
+.YTVids
+{
+border:3px solid red; 
+margin:20px;
+}
+
+/* <!--QRCode Hover--> */
+div#box2
+{
+background: url(img/QRCode2.png) no-repeat;
+background-size: 95% 95%;	
+width: 400px; 
+height: 400px;
+position: absolute;
+top: 89.0%;
+left: -400px;
+}	
+
+.boxAD2{
+width: 300px;
+height: 200px;
+border: 3px solid black;
+text-align:center;
+vertical-align:center;
+position: relative;
+top: 50%;
+display: inline-block;
+margin: 20px;
+}
+
+.boxAD2 > p {
+position: absolute;
+top: 50%;
+left: 0;
+right: 0;
+margin-top: -30px;
+}
